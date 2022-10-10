@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "CatWikiApp", "CatWikiApp\CatWikiApp.esproj", "{6A7BDC01-FED7-43CE-B269-6192EEC42B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWikiApp.Api", "CatWikiApp.Api\CatWikiApp.Api.csproj", "{9C2382DD-7A21-47E1-905C-5543AAC0688C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7BDC01-FED7-43CE-B269-6192EEC42B70}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9C2382DD-7A21-47E1-905C-5543AAC0688C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2382DD-7A21-47E1-905C-5543AAC0688C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2382DD-7A21-47E1-905C-5543AAC0688C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2382DD-7A21-47E1-905C-5543AAC0688C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDDBF132-1B59-4039-BF35-C67A69D49B88}
+	EndGlobalSection
+EndGlobal
