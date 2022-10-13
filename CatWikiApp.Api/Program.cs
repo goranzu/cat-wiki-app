@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddHttpClient<ICatClient, CatClient>(client => client.BaseAddress = new Uri("https://api.thecatapi.com/v1/"));
+builder.Services.AddHttpClient<IBreedClient, BreedClient>(client => client.BaseAddress = new Uri("https://api.thecatapi.com/v1/"));
 
 var catApiKey = builder.Configuration["CatApi:ApiKey"];
 
