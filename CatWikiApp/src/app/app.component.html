@@ -17,19 +17,9 @@
         <h2>66+ Breeds for you to discover</h2>
 
         <div class="hero__cat-grid">
-          <figure>
-            <img src="/assets/image 1.png" alt="bengal">
-            <figcaption>sengal</figcaption>
-          </figure>
-
-          <figure>
-            <img src="/assets/image 2.png" alt="savannah">
-            <figcaption>savannah</figcaption>
-          </figure>
-
-          <figure>
-            <img src="/assets/image 3.png" alt="norwegian forest cat">
-            <figcaption>norwegian forest cat</figcaption>
+          <figure *ngFor="let breed of breeds">
+            <img src="{{breed.url}}" alt="{{breed.name}}">
+            <figcaption>{{breed.name}}</figcaption>
           </figure>
         </div>
       </div>
